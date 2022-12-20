@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 15px 30px;
+    font-size: 17px;
+    padding: 8px;
+
+}
+
+.container{
+    background-color: rgb(45, 170, 170);
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+
+}
+input[type="text"],input[type="email"],input[type="number"],input[type="password"],input[type="date"],select,textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+fieldset{
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+.main_heading{
+    text-align:center;
+    background-color: rgb(212, 198, 37);
+    border: 2px  solid #ccc;
+    padding: auto;
+    border-radius: 10px;
+}
+
+input[type="submit"] {
+    background-color: rgb(212, 198, 37);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 100%;
+}
+
+input[type="submit"]:hover{
+    background-color: #fca848;
+}
+
+
+/* // .content-box{}        .border-box{content tke andr hi borde ar padding aa jayega}  */
+/* 
+index-------- for overlappping images
+    div#layer1 {
+
+    position: absolute;
+    top: 8px;
+    lezft: 8px;
+    width: 250px;
+    height: 120px;
+    background-color: green;
+    border: 1px solid blue;
+    padding: 5px;
+} */
+/* 
+/* div#layer2 {
+    z-index: 1;         comes with greater number first/     
+    position: absolute;
+    top: 8px;
+    lezft: 8px;
+    width: 250px;
+    height: 120px;
+    background-color: rgb(47, 30, 106);
+    border: 1px solid blue;
+    padding: 5px;
+
+div#layer3 {
+    z-index: 3;        will come first     
+    position: absolute;
+    top: 8px;
+    lezft: 8px;
+    width: 250px;
+    height: 120px;
+    background-color: rgb(128, 0, 0);
+    border: 1px solid blue;
+    padding: 5px;
+} */
+
